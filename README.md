@@ -29,10 +29,10 @@ logger.error('Error message');
 ```
 
 Output:
-[img]
+![Screenshot of log levels](https://cloud.githubusercontent.com/assets/2365802/16782604/ae31de7e-4856-11e6-9acf-832d2428567b.png)
 
 Since it uses ES6 Proxy, any other member function call will default to `log()`:
-[img2]
+![Screenshot of default behaviour of undefined log levels](https://cloud.githubusercontent.com/assets/2365802/16782647/e1748b38-4856-11e6-82b4-d37eb3ee4fe3.png)
 
 ### Using with [pm2](http://pm2.keymetrics.io/)
 
