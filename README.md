@@ -7,7 +7,7 @@ Yes. I made this because other log systems like [Winston](https://github.com/fla
 
 ## Pre-requisites
 
-* Node v6 (ES6 proxies are not implemented in node version 5 or lower ([Source](http://kangax.github.io/compat-table/es6/)))
+* Node v6 (ES6 proxies are not implemented in node version 5 or lower ([Source](http://kangax.github.io/compat-table/es6/))). There is a `.nvmrc` file if you use [nvm](https://github.com/creationix/nvm)
 
 
 ## How to use
