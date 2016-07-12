@@ -1,6 +1,6 @@
 {
   "name": "node-simple-logger-es6",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Really simplistic log system for node v6 using ES6 Proxies",
   "main": "index.js",
   "repository": {
@@ -22,5 +22,8 @@
   "dependencies": {
     "chalk": "^1.1.3",
     "moment": "^2.14.1"
+  },
+  "engines" : {
+    "node" : ">=6.0.0"
   }
 }
