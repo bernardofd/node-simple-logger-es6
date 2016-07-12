@@ -15,9 +15,7 @@ const level = {
 const timeFormat = 'DD-MMM-YYYY HH:mm:ss';
 
 function logFactory(lvl) {
-	return function(message) {
-		console.log(level[lvl](`[${moment().format(timeFormat)}] ${message}`));
-	};
+	return (message) => console.log(level[lvl](`[${moment().format(timeFormat)}] ${message}`));
 }
 
 module.exports = new Proxy({}, {
