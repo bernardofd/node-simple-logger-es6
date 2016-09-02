@@ -14,7 +14,7 @@ Yes. I made this because other log systems like [Winston](https://github.com/fla
 
 ### Basic usage
 ```javascript
-const logger = require('node-simple-logger');
+const logger = require('node-simple-logger-es6');
 
 logger.log('Log Message'); // Output (in gray): [12-Jul-2016 16:57:46] Log Message
 ```
