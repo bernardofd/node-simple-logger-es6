@@ -1,6 +1,6 @@
 {
   "name": "node-simple-logger-es6",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Really simplistic log system for node v6 using ES6 Proxies",
   "main": "index.js",
   "repository": {
